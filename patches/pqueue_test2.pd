@@ -1,0 +1,15 @@
+#N canvas 709 177 674 660 16;
+#X obj 196 311 pqueue~;
+#X obj 113 201 pulse_train~;
+#X obj 188 492 dac~;
+#X floatatom 47 200 5 0 0 0 - - -;
+#X floatatom 299 38 5 0 0 0 - - -;
+#X floatatom 462 102 5 0 0 0 - - -;
+#X obj 350 209 square_wave~ 10000 15000;
+#X connect 0 0 2 0;
+#X connect 0 0 2 1;
+#X connect 1 0 0 0;
+#X connect 3 0 1 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 3;
+#X connect 6 0 0 1;

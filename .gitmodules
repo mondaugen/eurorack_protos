@@ -1,0 +1,3 @@
+[submodule "adaptive_pitch_tracker_extracter"]
+	path = adaptive_pitch_tracker_extracter
+	url = https://github.com/mondaugen/adaptive_pitch_tracker_extracter.git
